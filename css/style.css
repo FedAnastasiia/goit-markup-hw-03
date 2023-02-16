@@ -201,13 +201,12 @@ body {
 }
 
 .features {
-	width: 1128px;
 	padding-top: 120px;
 	/*	padding-bottom: 120px;*/
-	
 }
 .features-list {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -250,7 +249,7 @@ body {
 .works-list {
 	display: flex;
 	align-items: center;
-	gap: 24px;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -281,7 +280,7 @@ body {
 	letter-spacing: 0.02em;
 
 	display: flex;
-	gap: 24px;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 }
